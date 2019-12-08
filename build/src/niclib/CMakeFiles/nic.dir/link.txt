@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnic.a  CMakeFiles/nic.dir/lib/Relogio.cpp.o CMakeFiles/nic.dir/lib/Lista.cpp.o
+/usr/bin/ranlib libnic.a

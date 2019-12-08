@@ -1,0 +1,7 @@
+/home/nicolas/dev/Prototipo/build/CMakeFiles/edit_cache.dir
+/home/nicolas/dev/Prototipo/build/CMakeFiles/rebuild_cache.dir
+/home/nicolas/dev/Prototipo/build/CMakeFiles/Prototipo.dir
+/home/nicolas/dev/Prototipo/build/CMakeFiles/Prototipo2.dir
+/home/nicolas/dev/Prototipo/build/src/niclib/CMakeFiles/rebuild_cache.dir
+/home/nicolas/dev/Prototipo/build/src/niclib/CMakeFiles/nic.dir
+/home/nicolas/dev/Prototipo/build/src/niclib/CMakeFiles/edit_cache.dir

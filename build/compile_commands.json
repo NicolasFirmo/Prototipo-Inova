@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/nicolas/dev/Prototipo/build",
+  "command": "/usr/bin/g++-7   -I/home/nicolas/dev/Prototipo/src/niclib/include -isystem /home/nicolas/dev/Prototipo/vendor/opencv/include/opencv4  -g   -std=c++1z -o CMakeFiles/Prototipo.dir/main.cpp.o -c /home/nicolas/dev/Prototipo/main.cpp",
+  "file": "/home/nicolas/dev/Prototipo/main.cpp"
+},
+{
+  "directory": "/home/nicolas/dev/Prototipo/build",
+  "command": "/usr/bin/g++-7   -I/home/nicolas/dev/Prototipo/src/niclib/include -isystem /home/nicolas/dev/Prototipo/vendor/opencv/include/opencv4  -g   -std=c++1z -o CMakeFiles/Prototipo2.dir/main2.cpp.o -c /home/nicolas/dev/Prototipo/main2.cpp",
+  "file": "/home/nicolas/dev/Prototipo/main2.cpp"
+},
+{
+  "directory": "/home/nicolas/dev/Prototipo/build/src/niclib",
+  "command": "/usr/bin/g++-7   -I/home/nicolas/dev/Prototipo/src/niclib/include  -g   -std=c++1z -o CMakeFiles/nic.dir/lib/Relogio.cpp.o -c /home/nicolas/dev/Prototipo/src/niclib/lib/Relogio.cpp",
+  "file": "/home/nicolas/dev/Prototipo/src/niclib/lib/Relogio.cpp"
+},
+{
+  "directory": "/home/nicolas/dev/Prototipo/build/src/niclib",
+  "command": "/usr/bin/g++-7   -I/home/nicolas/dev/Prototipo/src/niclib/include  -g   -std=c++1z -o CMakeFiles/nic.dir/lib/Lista.cpp.o -c /home/nicolas/dev/Prototipo/src/niclib/lib/Lista.cpp",
+  "file": "/home/nicolas/dev/Prototipo/src/niclib/lib/Lista.cpp"
+}
+]
