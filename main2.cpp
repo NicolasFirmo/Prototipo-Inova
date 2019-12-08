@@ -43,6 +43,13 @@ int main(int argc, char const *argv[])
 {
   cv::Mat mask(3, 3, CV_32F, vertical);
   cv::Mat img;
+  cv::namedWindow("Filtro");
+  cv::namedWindow("Prototipo");
+  cv::moveWindow("Filtro", 0, 0);
+  cv::moveWindow("Prototipo", 0, 0);
+  cv::resizeWindow("Filtro", 1280, 720);
+  cv::resizeWindow("Prototipo", 1280, 720);
+
   img = cv::imread(p_images + "IMG_20191208_123003.jpg", cv::IMREAD_ANYCOLOR); // Read the file
 
   cv::resize(img, img, cv::Size(), 0.35, 0.35);
@@ -88,8 +95,8 @@ int main(int argc, char const *argv[])
     cursor.e();
   }
 
-  cv::imshow("Prototipo", roi);
   cv::imshow("Filtro", roiFiltrado);
+  cv::imshow("Prototipo", roi);
   key = cv::waitKey();
 
   return 0;
